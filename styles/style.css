@@ -54,6 +54,8 @@ body{
     padding: 10px 15px;
     border-radius: 25px;
     border: none;
+    font-size: 1rem;
+    margin: 10px;
 }
 
 .login{
@@ -75,26 +77,37 @@ body{
 }
 
 .green{
+    color: white;
     background-color: #228B21;
 }
 
 .blue{
+    color: white;
     background-color: #255EE9;
 }
 
 .gray{
+    color: black;
     background-color: #F6F6F6;
 }
 
+.ciano{
+    color: white;
+    background-color: #7288DA;
+}
+
 .black{
+    color: white;
     background-color: #23272A;
 }
 
 .water{
+    color: white;
     background-color: #7FFFD3;
 }
 
 .water-darker{
+    color: white;
     background-color: #20B1A9;
 }
 
@@ -189,6 +202,11 @@ footer{
 
 .wrap{
     flex-wrap: wrap;
+    flex-direction: column;
+}
+.wrap > div {
+    flex: 1 1 15px; 
+    min-width: 200px;
 }
 
 .gap{
@@ -215,8 +233,10 @@ footer{
 
 }
 .buttons{
+    display: flex;
     justify-content: center;
 }
+
 .img-bk{
     justify-content: center;
     text-align: center;
@@ -227,6 +247,14 @@ footer{
     background-position: center;
     width: 100%;
 }
+
+.stars-bk{
+    padding: 40px;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .item {
     height: 100%;
 }
@@ -249,6 +277,7 @@ footer{
     color: white;
     height: 100%;
 }
+
 img{
     width: 100%;
 }
