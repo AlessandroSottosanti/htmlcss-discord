@@ -158,19 +158,26 @@ footer{
 
 .container2{
     display: flex;
-    height: 90%;
-    width: 60%; 
+    padding: 200px;
+    width: 80%; 
     margin: 0 auto;
     align-items: center;
-    /* position: absolute; */
-}
+    flex-wrap: wrap;
+    justify-content: center;
 
+}
+.buttons{
+    justify-content: center;
+    gap: 20px;
+}
 .img-bk{
-    /* position: relative; */
-    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
     background-image: url('../img/jumbo.png');
     background-repeat: no-repeat;
-    background-size: contain;/* background-size: cover; */
+    background-size: cover;
+    background-position: center;
     width: 100%;
 }
 .item {
